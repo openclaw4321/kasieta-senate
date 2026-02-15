@@ -3,458 +3,345 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Justin Kasieta (R) for U.S. Senate | Michigan 2026 | Republican</title>
-    <meta name="description" content="From Foster Care to the Fight for Michigan. Republican Justin Kasieta is running for U.S. Senate to protect Michigan's children, strengthen families, and hold government accountable.">
-    <meta property="og:title" content="Justin Kasieta (R) for U.S. Senate | Michigan 2026">
-    <meta property="og:description" content="From Foster Care to the Fight for Michigan. Full support for ICE. Voluntary Deportation Program for illegal aliens.">
-    <meta property="og:image" content="https://openclaw4321.github.io/kasieta-senate/og-image.jpg">
-    <meta property="og:image:width" content="1456">
-    <meta property="og:image:height" content="816">
+    <title>Justin Kasieta for US Senate - Michigan 2026</title>
+    <meta name="description" content="From Foster Care to the Fight for Michigan. Join Justin Kasieta's campaign for U.S. Senate in Michigan 2026.">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Justin Kasieta for US Senate - Michigan 2026">
+    <meta property="og:description" content="From Foster Care to the Fight for Michigan">
+    <meta property="og:image" content="og-image.jpg">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://openclaw4321.github.io/kasieta-senate/">
+    
+    <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Justin Kasieta (R) for U.S. Senate | Michigan 2026">
-    <meta name="twitter:description" content="From Foster Care to the Fight for Michigan. Full support for ICE.">
-    <meta name="twitter:image" content="https://openclaw4321.github.io/kasieta-senate/og-image.jpg">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <meta name="twitter:title" content="Justin Kasieta for US Senate">
+    <meta name="twitter:description" content="From Foster Care to the Fight for Michigan">
+    <meta name="twitter:image" content="og-image.jpg">
+    
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="nav" id="nav">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <strong>JUSTIN KASIETA</strong>
-                <span class="nav-subtitle">for U.S. Senate</span>
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="nav-brand">
+                <span class="brand-name">KASIETA</span>
+                <span class="brand-tagline">FOR SENATE</span>
             </div>
-            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+            
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
-            <ul class="nav-menu" id="navMenu">
-                <li><a href="#ice" style="color: #c41e3a; font-weight: 700;">ICE Program</a></li>
-                <li><a href="#story">His Story</a></li>
-                <li><a href="#mission">Mission</a></li>
-                <li><a href="#issues">Issues</a></li>
-                <li><a href="#news">News</a></li>
-                <li><a href="#involved" class="nav-cta">Get Involved</a></li>
-            </ul>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#ice-support" class="nav-link nav-link-ice">Support ICE</a>
+                <a href="#positions" class="nav-link">Positions</a>
+                <a href="#issues" class="nav-link">Issues</a>
+                <a href="#news" class="nav-link">News</a>
+                <a href="#donate" class="nav-link nav-link-donate">DONATE</a>
+            </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
     <section class="hero" id="hero">
-        <div class="hero-background"></div>
-        <div class="hero-content">
-            <div class="hero-badge">Republican for U.S. Senate · Michigan 2026</div>
-            <div class="hero-with-photo">
-                <div class="hero-photo-container fade-in">
-                    <img src="justin-headshot.jpg" alt="Justin Kasieta" class="hero-photo">
-                </div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
                 <div class="hero-text">
-                    <h1 class="hero-title fade-in">
-                        From Foster Care to the<br>
-                        <span class="text-gradient">Fight for Michigan</span>
-                    </h1>
-                    <p class="hero-subtitle fade-in-delay">
-                        A kid from the Upper Peninsula who lost everything, fought the system,<br class="desktop-break"> 
-                        and became a national voice for foster children.<br class="desktop-break">
-                        Now he's running to serve Michigan in the U.S. Senate.
-                    </p>
-                    <div class="hero-cta fade-in-delay-2">
-                        <a href="#involved" class="btn btn-primary">Join Justin</a>
-                        <a href="#story" class="btn btn-secondary">Read His Story</a>
+                    <h1 class="hero-title animate-fade-in">From Foster Care to the Fight for Michigan</h1>
+                    <p class="hero-subtitle animate-fade-in-delay-1">Republican for U.S. Senate • Michigan 2026</p>
+                    <div class="hero-signup animate-fade-in-delay-2">
+                        <h3>Join the Campaign</h3>
+                        <form class="signup-form" id="heroSignup">
+                            <input type="email" placeholder="Email Address" required>
+                            <input type="text" placeholder="ZIP Code" maxlength="5" pattern="[0-9]{5}" required>
+                            <button type="submit" class="btn btn-primary">Join Now</button>
+                        </form>
+                        <p class="form-note">Get updates and learn how you can help win Michigan</p>
                     </div>
                 </div>
+                <div class="hero-image animate-slide-in">
+                    <img src="justin-headshot.jpg" alt="Justin Kasieta">
+                </div>
             </div>
-            <div class="hero-michigan"></div>
         </div>
-        <div class="scroll-indicator">
-            <div class="scroll-line"></div>
-        </div>
-    </section>
-
-    <!-- ICE & DEPORTATION PROGRAM - TOP OF PAGE -->
-    <section class="bold-positions section" id="ice" style="padding-top: 80px;">
-        <div class="container">
-            <div class="signature-program reveal" style="border-color: #c41e3a; background: linear-gradient(135deg, rgba(196,30,58,0.08), rgba(0,40,104,0.08));">
-                <div class="program-content" style="text-align: center;">
-                    <h3 style="color: #c41e3a; font-size: 2em;">🛡️ Full Support for ICE — Michigan's #1 Priority</h3>
-                    <p style="font-size: 1.2em;">Justin <strong>strongly supports Immigration and Customs Enforcement</strong>. Double funding for ICE. Expand ICE operations across every county in Michigan. End ALL sanctuary city policies. Cooperate fully with federal immigration enforcement.</p>
-                    <div class="program-features">
-                        <div class="feature">✓ <strong>Double ICE funding</strong></div>
-                        <div class="feature">✓ <strong>End sanctuary cities</strong></div>
-                        <div class="feature">✓ <strong>Full cooperation with federal enforcement</strong></div>
-                        <div class="feature">✓ <strong>Expand operations statewide</strong></div>
-                    </div>
-                    <p style="font-size: 1.1em; font-weight: 600;">Our law enforcement deserves our full backing — no exceptions.</p>
-                </div>
-            </div>
-
-            <div class="signature-program reveal">
-                <div class="van-graphic">
-                    <div class="van-body">
-                        <div class="van-logo">KASIETA FOR SENATE</div>
-                        <div class="van-tagline">🇺🇸 Voluntary Deportation Program 🇺🇸</div>
-                    </div>
-                </div>
-                <div class="program-content">
-                    <img src="van-mockup.jpg" alt="Kasieta for Senate Voluntary Deportation Van" style="width:100%; max-width:700px; border-radius:10px; margin-bottom:20px; box-shadow: 0 4px 20px rgba(0,0,0,0.2);">
-                    <h3>🚐 The Kasieta Voluntary Deportation Program</h3>
-                    <p class="program-subtitle">For Illegal Aliens — A No-Questions-Asked Solution</p>
-                    <p>Justin is launching a <strong>first-of-its-kind program</strong> in Michigan: branded vans with the "Kasieta for Senate" logo will drive around the state offering <strong>illegal aliens free transportation to the border plus $1,000 cash</strong> to voluntarily leave the country.</p>
-                    <div class="program-features">
-                        <div class="feature">✓ For illegal aliens only</div>
-                        <div class="feature">✓ No questions asked</div>
-                        <div class="feature">✓ Free transportation to the border</div>
-                        <div class="feature">✓ <strong>$1,000 cash per person</strong></div>
-                        <div class="feature">✓ Branded campaign vans</div>
-                    </div>
-                    <p class="program-closing">$1,000 to leave voluntarily — or wait for ICE. The choice is theirs. Either way, Michigan's laws will be enforced.</p>
-                </div>
-            </div>
+        <div class="hero-scroll">
+            <span>↓</span>
         </div>
     </section>
 
-    <!-- Story Section -->
-    <section class="story section" id="story">
+    <!-- ICE Support Section - MOST PROMINENT -->
+    <section class="ice-support" id="ice-support">
         <div class="container">
-            <div class="section-header">
-                <span class="section-label">His Story</span>
-                <h2>A Michigan Story</h2>
+            <div class="ice-badge">
+                <span class="badge-icon">★</span>
+                <span class="badge-text">BOLD POSITION</span>
+            </div>
+            <h2 class="section-title-xl animate-on-scroll">FULL SUPPORT FOR ICE</h2>
+            <p class="ice-lead animate-on-scroll">Michigan's Next Senator Will Stand With Our Immigration & Customs Enforcement Officers</p>
+            
+            <div class="ice-grid animate-on-scroll">
+                <div class="ice-card">
+                    <div class="ice-icon">💪</div>
+                    <h3>Double ICE Funding</h3>
+                    <p>Give our officers the resources they need to protect Michigan communities</p>
+                </div>
+                <div class="ice-card">
+                    <div class="ice-icon">🚫</div>
+                    <h3>End Sanctuary Cities</h3>
+                    <p>No safe havens for illegal immigration in Michigan</p>
+                </div>
+                <div class="ice-card">
+                    <div class="ice-icon">⚖️</div>
+                    <h3>Expand Operations Statewide</h3>
+                    <p>Bring ICE enforcement to every corner of Michigan</p>
+                </div>
+                <div class="ice-card">
+                    <div class="ice-icon">🤝</div>
+                    <h3>Full Federal Cooperation</h3>
+                    <p>Michigan law enforcement working hand-in-hand with ICE</p>
+                </div>
             </div>
             
-            <div class="story-content">
-                <div class="story-block reveal">
-                    <h3>Growing Up in the Upper Peninsula</h3>
-                    <p>Justin Kasieta grew up in a small town on Michigan's Upper Peninsula. His childhood was like that of so many Michigan families — hardworking, close-knit, grounded in faith and community.</p>
-                    <p>But when Justin was 15, everything changed. His father was diagnosed with aggressive cancer. The disease moved fast. Justin's dad passed away when Justin was just entering his teenage years.</p>
+            <div class="ice-cta animate-on-scroll">
+                <p class="ice-quote">"Our ICE officers risk their lives to enforce our laws. As your Senator, I will fight to give them every tool and dollar they need."</p>
+                <p class="ice-signature">— Justin Kasieta</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Voluntary Deportation Program -->
+    <section class="deportation-program" id="deportation-program">
+        <div class="container">
+            <div class="program-content">
+                <div class="program-text animate-on-scroll">
+                    <div class="ice-badge">
+                        <span class="badge-icon">★</span>
+                        <span class="badge-text">BOLD POSITION</span>
+                    </div>
+                    <h2 class="section-title">Voluntary Deportation Program</h2>
+                    <p class="program-lead">A humane, dignified solution for illegal aliens who want to return home.</p>
+                    
+                    <div class="program-details">
+                        <div class="program-feature">
+                            <span class="feature-icon">🚐</span>
+                            <div>
+                                <h4>Free Transportation</h4>
+                                <p>Branded "Kasieta for Senate" vans providing safe, comfortable rides to the southern border</p>
+                            </div>
+                        </div>
+                        <div class="program-feature">
+                            <span class="feature-icon">💵</span>
+                            <div>
+                                <h4>$1,000 Cash Payment</h4>
+                                <p>Every participant receives $1,000 to help them restart their lives</p>
+                            </div>
+                        </div>
+                        <div class="program-feature">
+                            <span class="feature-icon">🤐</span>
+                            <div>
+                                <h4>No Questions Asked</h4>
+                                <p>Privacy and dignity respected throughout the process</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="story-block reveal">
-                    <h3>Becoming the Caretaker</h3>
-                    <p>At 13 years old, Justin became the caretaker for his four younger siblings. He walked to the store to buy food for them. The family survived on Social Security survivor benefits — the safety net his father had paid into his entire working life.</p>
-                    <p>Then Justin entered Michigan's foster care system. He lived in four different homes. He attended four different high schools. He was alone, bouncing between strangers, trying to finish school while grieving his father and worrying about his siblings.</p>
-                </div>
-
-                <blockquote class="pullquote reveal">
-                    "At 13, I walked to the store to buy food for my four younger siblings. I know what it means to fight for your family."
-                </blockquote>
-
-                <div class="story-block reveal">
-                    <h3>The Betrayal</h3>
-                    <p>Years later, Justin discovered something that changed his life: <strong>the State of Michigan had taken over $18,000 in Social Security survivor benefits</strong> — money that was supposed to help him and his siblings after their father died — and used it to reimburse the cost of his foster care.</p>
-                    <p>They never told him. They never told his family. They just took it.</p>
-                    <p>Justin learned that this wasn't just happening to him. This practice was affecting <strong>more than 25,000 foster children nationally</strong>, with states seizing over <strong>$174 million per year</strong> in benefits meant for orphaned and disabled children.</p>
-                </div>
-
-                <blockquote class="pullquote reveal">
-                    "It's not fair to make kids who are orphaned or disabled have to pay for their own foster care. But kids who are not orphaned or disabled receive taxpayer dollars to cover their foster care?"
-                    <cite>— Justin Kasieta, testimony before Michigan Legislature</cite>
-                </blockquote>
-
-                <div class="story-block reveal">
-                    <h3>Fighting Back</h3>
-                    <p>Justin didn't just accept it. He challenged the system. He became a national advocate for foster children's rights.</p>
-                    <p>He testified before the Michigan Legislature in support of Senate Bill 18 to protect foster children's benefits. He interned in the Michigan state legislature and the U.S. Congress. He shared his story on NPR, CBS News, MSN, and GPB News.</p>
-                    <p>And it worked. <strong>Fifteen states</strong> reformed their policies thanks to advocacy like his. The Trump administration issued warnings to states about this practice. Real change happened.</p>
-                </div>
-
-                <div class="story-photo-section reveal">
-                    <img src="justin-photo2.jpg" alt="Justin Kasieta" class="story-photo">
-                </div>
-
-                <div class="story-block reveal">
-                    <h3>The Success Story</h3>
-                    <p>Despite everything — losing his father, becoming a caretaker at 13, entering foster care, being moved four times, attending four different high schools, having his benefits stolen — Justin graduated from the <strong>University of Michigan</strong> on scholarships.</p>
-                    <p>He built a career in finance and government. He became a voice for the voiceless. He proved that foster children can succeed when given a fighting chance.</p>
-                </div>
-
-                <blockquote class="pullquote reveal">
-                    "If the goal is to make success stories like mine the rule, instead of the exception, I think we need to support kids all the way through from the time they are in foster care to the time they exit and even beyond that."
-                    <cite>— Justin Kasieta</cite>
-                </blockquote>
-
-                <div class="story-block reveal">
-                    <h3>Why He's Running</h3>
-                    <p>Justin knows what it's like when government fails you. He knows what it's like to be overlooked, underestimated, and forgotten. He knows what it means to fight for your family when the system is stacked against you.</p>
-                    <p>Now, he's ready to take that fight to Washington — to protect Michigan's children, strengthen our families, and ensure government works for the people, not against them.</p>
+                <div class="program-image animate-on-scroll">
+                    <img src="van-mockup.jpg" alt="Kasieta for Senate Voluntary Deportation Van">
+                    <p class="image-caption">Dignity. Respect. Solutions.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Mission Section -->
-    <section class="mission section" id="mission">
-        <div class="mission-background"></div>
+    <!-- Bold Positions -->
+    <section class="positions" id="positions">
         <div class="container">
-            <div class="mission-content reveal">
-                <span class="section-label">The Mission</span>
-                <h2>Fighting for Michigan Families</h2>
-                <div class="mission-text">
-                    <p class="lead">Justin's running for U.S. Senate because he's lived the struggles that too many Michigan families face every day.</p>
-                    <p>He knows what it's like to lose a parent. To be responsible for your siblings when you're still a kid yourself. To have the government take from you instead of helping you. To fight a system that doesn't see you.</p>
-                    <p>In the Senate, Justin will fight for:</p>
-                    <ul class="mission-list">
-                        <li><strong>Kids who need a voice</strong> — because he was one of them</li>
-                        <li><strong>Families struggling to get by</strong> — because he knows that struggle</li>
-                        <li><strong>Accountability in government</strong> — because he's seen what happens when there isn't any</li>
-                        <li><strong>Opportunity for all</strong> — because everyone deserves a fighting chance</li>
-                    </ul>
-                    <p class="mission-closer">This isn't about politics. It's about people. It's about making sure the next kid who loses a parent doesn't have to fight the system alone. It's about a Michigan where hard work is rewarded, families are protected, and government serves the people.</p>
+            <h2 class="section-title animate-on-scroll">Bold Positions for Michigan</h2>
+            <p class="section-subtitle animate-on-scroll">No apologies. No compromise. Real solutions.</p>
+            
+            <div class="positions-grid">
+                <div class="position-card animate-on-scroll">
+                    <div class="position-number">03</div>
+                    <h3>Defund Department of Education</h3>
+                    <p>Return education control to Michigan parents and local communities</p>
+                </div>
+                <div class="position-card animate-on-scroll">
+                    <div class="position-number">04</div>
+                    <h3>Constitutional Carry</h3>
+                    <p>Protect the Second Amendment rights of all law-abiding Michiganders</p>
+                </div>
+                <div class="position-card animate-on-scroll">
+                    <div class="position-number">05</div>
+                    <h3>Complete the Border Wall</h3>
+                    <p>Finish what we started and secure America's southern border</p>
+                </div>
+                <div class="position-card animate-on-scroll">
+                    <div class="position-number">06</div>
+                    <h3>Ban DEI Programs</h3>
+                    <p>End divisive discrimination and restore merit-based systems</p>
+                </div>
+                <div class="position-card animate-on-scroll">
+                    <div class="position-number">07</div>
+                    <h3>English as Official Language</h3>
+                    <p>Unite America with a common language and shared culture</p>
+                </div>
+                <div class="position-card animate-on-scroll">
+                    <div class="position-number">08</div>
+                    <h3>Mandatory E-Verify</h3>
+                    <p>Ensure every job goes to legal workers, protecting Michigan families</p>
+                </div>
+                <div class="position-card animate-on-scroll">
+                    <div class="position-number">09</div>
+                    <h3>Audit the United Nations</h3>
+                    <p>American taxpayers deserve accountability for every dollar spent</p>
+                </div>
+                <div class="position-card animate-on-scroll">
+                    <div class="position-number">10</div>
+                    <h3>End Birthright Citizenship</h3>
+                    <p>Close the loophole exploited by illegal immigration</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Issues Section -->
-    <section class="issues section" id="issues">
+    <!-- About Section -->
+    <section class="about" id="about">
         <div class="container">
-            <div class="section-header">
-                <span class="section-label">Platform</span>
-                <h2>Where Justin Stands</h2>
-                <p class="section-intro">Seven priorities shaped by lived experience and Michigan values.</p>
+            <div class="about-content">
+                <div class="about-image animate-on-scroll">
+                    <img src="justin-photo2.jpg" alt="Justin Kasieta">
+                </div>
+                <div class="about-text animate-on-scroll">
+                    <h2 class="section-title">A Fighter Forged by Adversity</h2>
+                    <p class="about-lead">Justin Kasieta knows what it means to fight for survival—and to win against impossible odds.</p>
+                    
+                    <div class="about-story">
+                        <p>Born and raised in Michigan's Upper Peninsula, Justin's life changed forever when his father died of cancer when he was just 15 years old. At 13, he became the caretaker for his four younger siblings.</p>
+                        
+                        <p>When the family entered Michigan's foster care system, Justin experienced firsthand the failures of government bureaucracy. Four foster homes. Four different high schools. And the state took over <strong>$18,000 in Social Security survivor benefits</strong> meant for his family.</p>
+                        
+                        <p>Instead of giving up, Justin fought back. He testified before the Michigan Legislature for Senate Bill 18, interned in both the Michigan state legislature and U.S. Congress, and graduated from the <strong>University of Michigan</strong>.</p>
+                        
+                        <p>His advocacy has been featured on <strong>NPR, CBS News, MSN, and GPB News</strong>. His work helped reform foster care systems in <strong>15 states</strong>, and the Trump administration issued warnings to states about this practice affecting over 25,000 foster children and $174 million annually.</p>
+                        
+                        <p class="about-closing">Now, Justin is ready to take that same fighting spirit to Washington—to stand up for Michigan families, protect our children, and restore common sense to our government.</p>
+                    </div>
+                </div>
             </div>
+        </div>
+    </section>
 
+    <!-- Issues -->
+    <section class="issues" id="issues">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Fighting for Michigan</h2>
+            
             <div class="issues-grid">
-                <div class="issue-card reveal">
+                <div class="issue-card animate-on-scroll">
                     <div class="issue-icon">👶</div>
-                    <h3>Protecting Michigan's Children</h3>
-                    <p>Federal ban on states seizing foster children's Social Security survivor benefits. Full transparency and accountability in child welfare. Every child deserves the support their parents paid for.</p>
+                    <h3>Protecting Children</h3>
+                    <p>Reform foster care, end government theft of survivor benefits, and put children first</p>
                 </div>
-
-                <div class="issue-card reveal">
-                    <div class="issue-icon">👨‍👩‍👧‍👦</div>
-                    <h3>Family Values & Foster Care Reform</h3>
-                    <p>Strengthen families to keep kids out of foster care. Support foster parents who open their homes. Hold agencies accountable. Make success stories the rule, not the exception.</p>
-                </div>
-
-                <div class="issue-card reveal">
-                    <div class="issue-icon">🏭</div>
+                <div class="issue-card animate-on-scroll">
+                    <div class="issue-icon">💼</div>
                     <h3>Economic Opportunity</h3>
-                    <p>Bring manufacturing jobs back to Michigan. Support small businesses. Reduce regulations that hurt Main Street. Justin started from nothing — everyone deserves the chance to build something.</p>
+                    <p>Cut taxes, eliminate red tape, and bring jobs back to Michigan</p>
                 </div>
-
-                <div class="issue-card reveal">
-                    <div class="issue-icon">🎓</div>
-                    <h3>Education</h3>
-                    <p>College access and scholarships for kids who need them. Vocational training for skilled trades. School choice for parents. Justin made it through UMich on scholarships — education is the path forward.</p>
+                <div class="issue-card animate-on-scroll">
+                    <div class="issue-icon">📚</div>
+                    <h3>Education Freedom</h3>
+                    <p>School choice, parental rights, and local control over curriculum</p>
                 </div>
-
-                <div class="issue-card reveal">
+                <div class="issue-card animate-on-scroll">
                     <div class="issue-icon">⚖️</div>
                     <h3>Government Accountability</h3>
-                    <p>Shrink wasteful government. End bureaucracy that hurts people instead of helping them. Transparency in how taxpayer dollars are spent. Make government work for us again.</p>
+                    <p>Drain the swamp, cut wasteful spending, and restore trust in institutions</p>
                 </div>
-
-                <div class="issue-card reveal">
-                    <div class="issue-icon">🎖️</div>
-                    <h3>Veterans & Military Families</h3>
-                    <p>Protect all military family benefits — including survivor benefits for children. Honor those who served. Support veterans and their families with the care and respect they've earned.</p>
+                <div class="issue-card animate-on-scroll">
+                    <div class="issue-icon">🇺🇸</div>
+                    <h3>Veterans & Military</h3>
+                    <p>Honor our heroes with quality healthcare, benefits, and support they've earned</p>
                 </div>
-
-                <div class="issue-card reveal">
+                <div class="issue-card animate-on-scroll">
                     <div class="issue-icon">🌲</div>
                     <h3>Rural Michigan & the UP</h3>
-                    <p>Born and raised in the Upper Peninsula. Invest in broadband and infrastructure. Support natural resource industries. Rural Michigan isn't flyover country — it's home.</p>
+                    <p>Defend our way of life, protect natural resources, and invest in rural infrastructure</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Bold Positions Section -->
-    <section class="bold-positions section" id="bold">
+    <!-- News & Press -->
+    <section class="news" id="news">
         <div class="container">
-            <div class="section-header">
-                <span class="section-label">No Apologies</span>
-                <h2>Bold Positions for Michigan</h2>
-                <p class="section-intro">Justin isn't afraid to take the positions other Republicans won't. Here's where he stands.</p>
-            </div>
-
-            <!-- Other Bold Positions -->
-            <div class="bold-grid">
-
-                <div class="bold-card reveal">
-                    <div class="bold-icon">🎓</div>
-                    <h3>Defund the Department of Education</h3>
-                    <p>Return all education control to states. The federal government has no business running Michigan's schools. Let parents and local communities decide.</p>
-                </div>
-
-                <div class="bold-card reveal">
-                    <div class="bold-icon">🔫</div>
-                    <h3>Constitutional Carry</h3>
-                    <p>No permit needed for concealed firearms in Michigan. The Second Amendment is clear. Law-abiding citizens shouldn't need government permission.</p>
-                </div>
-
-                <div class="bold-card reveal">
-                    <div class="bold-icon">🧱</div>
-                    <h3>Complete the Border Wall</h3>
-                    <p>Finish the wall and deploy the National Guard. Border security is national security. No compromise.</p>
-                </div>
-
-                <div class="bold-card reveal">
-                    <div class="bold-icon">🚫</div>
-                    <h3>Ban DEI Programs</h3>
-                    <p>Ban DEI programs at all Michigan universities receiving federal funding. Merit, not ideology. Excellence, not quotas.</p>
-                </div>
-
-                <div class="bold-card reveal">
-                    <div class="bold-icon">🇺🇸</div>
-                    <h3>English as Official Language</h3>
-                    <p>Make English the official language of the United States. One nation, one language. Unity through shared communication.</p>
-                </div>
-
-                <div class="bold-card reveal">
-                    <div class="bold-icon">✅</div>
-                    <h3>Mandatory E-Verify</h3>
-                    <p>Require all Michigan employers to use E-Verify. Protect American jobs. Enforce immigration law at the workplace.</p>
-                </div>
-
-                <div class="bold-card reveal">
-                    <div class="bold-icon">👶</div>
-                    <h3>End Birthright Citizenship</h3>
-                    <p>End birthright citizenship for children of illegal immigrants. Citizenship is a privilege, not a loophole.</p>
-                </div>
-
-                <div class="bold-card reveal">
-                    <div class="bold-icon">🌐</div>
-                    <h3>Audit the United Nations</h3>
-                    <p>Audit and potentially withdraw from the United Nations. America First means America decides our own destiny.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- News Section -->
-    <section class="news section" id="news">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-label">In the News</span>
-                <h2>A National Voice for Foster Children</h2>
-                <p class="section-intro">Justin's advocacy has been featured in major media outlets and led to real reform.</p>
-            </div>
-
+            <h2 class="section-title animate-on-scroll">In The News</h2>
+            
             <div class="news-grid">
-                <div class="news-card reveal">
-                    <div class="news-outlet">NPR</div>
-                    <h3>States Are Taking Millions Of Dollars From Families</h3>
-                    <p>Justin Kasieta's story of how Michigan seized his Social Security survivor benefits while he was in foster care.</p>
-                    <a href="https://www.npr.org/sections/money/2021/06/08/1004148290/states-are-taking-millions-of-dollars-from-families" target="_blank" class="news-link">Read on NPR →</a>
+                <div class="news-card animate-on-scroll">
+                    <div class="news-logo">NPR</div>
+                    <h3>Foster Care Advocate Takes on Washington</h3>
+                    <p>Justin Kasieta's fight to protect foster children from government overreach</p>
                 </div>
-
-                <div class="news-card reveal">
-                    <div class="news-outlet">CBS News</div>
-                    <h3>Foster Care System Seizing Benefits</h3>
-                    <p>Investigation into how states take Social Security benefits from foster children, featuring Justin's testimony and advocacy.</p>
-                    <a href="#" target="_blank" class="news-link">Read on CBS →</a>
+                <div class="news-card animate-on-scroll">
+                    <div class="news-logo">CBS NEWS</div>
+                    <h3>Michigan Testifies Before Legislature</h3>
+                    <p>Senate Bill 18 aims to end state seizure of foster children's benefits</p>
                 </div>
-
-                <div class="news-card reveal">
-                    <div class="news-outlet">Michigan Legislature</div>
-                    <h3>Testimony on Senate Bill 18</h3>
-                    <p>Justin testified before the Michigan Legislature advocating for reform to protect foster children's Social Security benefits.</p>
-                    <a href="#" target="_blank" class="news-link">View Testimony →</a>
+                <div class="news-card animate-on-scroll">
+                    <div class="news-logo">LEGISLATURE</div>
+                    <h3>Historic Testimony Changes Policy</h3>
+                    <p>Michigan Legislature hears powerful story from foster care survivor</p>
                 </div>
-
-                <div class="news-card reveal">
-                    <div class="news-outlet">MSN / GPB News</div>
-                    <h3>15 States Reform Policies</h3>
-                    <p>How advocacy from voices like Justin's led to policy changes in states across the country and Trump administration action.</p>
-                    <a href="#" target="_blank" class="news-link">Read More →</a>
-                </div>
-            </div>
-
-            <div class="news-stats reveal">
-                <div class="stat">
-                    <div class="stat-number">25,000+</div>
-                    <div class="stat-label">Foster children affected nationally</div>
-                </div>
-                <div class="stat">
-                    <div class="stat-number">$174M</div>
-                    <div class="stat-label">Seized annually from children</div>
-                </div>
-                <div class="stat">
-                    <div class="stat-number">15</div>
-                    <div class="stat-label">States reformed policies</div>
+                <div class="news-card animate-on-scroll">
+                    <div class="news-logo">MSN / GPB</div>
+                    <h3>15 States Reform Foster Care Laws</h3>
+                    <p>Advocacy effort leads to nationwide change affecting 25,000+ children</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Endorsements Section -->
-    <section class="endorsements section" id="endorsements">
+    <!-- Donate Section -->
+    <section class="donate" id="donate">
         <div class="container">
-            <div class="section-header">
-                <span class="section-label">Support</span>
-                <h2>Endorsements</h2>
-            </div>
-            <div class="endorsements-placeholder reveal">
-                <p>Endorsements coming soon.</p>
-                <p class="endorsements-note">Organizations and leaders across Michigan are joining Justin's campaign. Check back for updates.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Get Involved Section -->
-    <section class="involved section" id="involved">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-label">Join Us</span>
-                <h2>Get Involved</h2>
-                <p class="section-intro">This campaign is powered by people, not special interests. Join us.</p>
-            </div>
-
-            <div class="involved-grid">
-                <div class="involved-card reveal">
-                    <h3>Volunteer</h3>
-                    <p>Sign up to knock doors, make calls, and help spread Justin's message across Michigan.</p>
-                    <form class="volunteer-form" id="volunteerForm">
+            <div class="donate-content animate-on-scroll">
+                <h2 class="section-title-white">Help Us Win Michigan</h2>
+                <p class="donate-subtitle">Your contribution will help us reach voters across Michigan and take this fight to Washington.</p>
+                
+                <div class="donate-amounts">
+                    <button class="amount-btn" data-amount="25">$25</button>
+                    <button class="amount-btn" data-amount="50">$50</button>
+                    <button class="amount-btn" data-amount="100">$100</button>
+                    <button class="amount-btn" data-amount="250">$250</button>
+                    <button class="amount-btn" data-amount="500">$500</button>
+                    <button class="amount-btn" data-amount="other">Other</button>
+                </div>
+                
+                <form class="donate-form" id="donateForm">
+                    <div class="form-row">
                         <input type="text" placeholder="First Name" required>
                         <input type="text" placeholder="Last Name" required>
+                    </div>
+                    <div class="form-row">
                         <input type="email" placeholder="Email Address" required>
-                        <input type="tel" placeholder="Phone Number">
-                        <input type="text" placeholder="City, MI">
-                        <label class="checkbox-label">
-                            <input type="checkbox">
-                            <span>I can knock doors</span>
-                        </label>
-                        <label class="checkbox-label">
-                            <input type="checkbox">
-                            <span>I can make phone calls</span>
-                        </label>
-                        <label class="checkbox-label">
-                            <input type="checkbox">
-                            <span>I can host an event</span>
-                        </label>
-                        <button type="submit" class="btn btn-primary">Sign Up</button>
-                    </form>
-                </div>
-
-                <div class="involved-card reveal">
-                    <h3>Donate</h3>
-                    <p>Grassroots donations from people like you will power this campaign. Every dollar helps us reach more Michigan voters.</p>
-                    <div class="donate-amounts">
-                        <button class="amount-btn">$25</button>
-                        <button class="amount-btn">$50</button>
-                        <button class="amount-btn">$100</button>
-                        <button class="amount-btn">$250</button>
-                        <button class="amount-btn">$500</button>
-                        <button class="amount-btn">Other</button>
+                        <input type="tel" placeholder="Phone Number" required>
                     </div>
-                    <a href="#" class="btn btn-primary btn-block">Donate Now</a>
-                    <p class="donate-disclaimer">Contributions are not tax-deductible. Federal law requires us to collect and report the name, address, occupation, and employer of individuals whose contributions exceed $200 in an election cycle.</p>
-
-                    <h3 class="social-heading">Follow the Campaign</h3>
-                    <div class="social-links">
-                        <a href="#" class="social-btn">Twitter/X</a>
-                        <a href="#" class="social-btn">Facebook</a>
-                        <a href="#" class="social-btn">Instagram</a>
-                        <a href="#" class="social-btn">YouTube</a>
+                    <div class="form-row">
+                        <input type="text" placeholder="ZIP Code" maxlength="5" pattern="[0-9]{5}" required>
                     </div>
+                    <button type="submit" class="btn btn-donate-submit">DONATE NOW</button>
+                </form>
+                
+                <div class="text-to-donate">
+                    <p><strong>Text to Donate:</strong> Text KASIETA to (XXX) XXX-XXXX</p>
                 </div>
+                
+                <p class="donate-disclaimer">Contributions are not tax-deductible. Federal law requires us to collect your name, address, occupation, and employer. Maximum contribution: $3,300 per individual per election.</p>
             </div>
         </div>
     </section>
@@ -464,26 +351,45 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-brand">
-                    <strong>JUSTIN KASIETA FOR U.S. SENATE</strong>
-                    <p>From Foster Care to the Fight for Michigan</p>
+                    <h3>KASIETA FOR SENATE</h3>
+                    <p>Fighting for Michigan</p>
                 </div>
+                
                 <div class="footer-links">
-                    <a href="#story">Story</a>
-                    <a href="#mission">Mission</a>
-                    <a href="#issues">Issues</a>
-                    <a href="#news">News</a>
-                    <a href="#involved">Get Involved</a>
-                </div>
-                <div class="footer-social">
-                    <a href="#">Twitter</a>
-                    <a href="#">Facebook</a>
-                    <a href="#">Instagram</a>
+                    <div class="footer-column">
+                        <h4>Campaign</h4>
+                        <a href="#about">About Justin</a>
+                        <a href="#positions">Positions</a>
+                        <a href="#issues">Issues</a>
+                        <a href="#news">News</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Get Involved</h4>
+                        <a href="#donate">Donate</a>
+                        <a href="#volunteer">Volunteer</a>
+                        <a href="#events">Events</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="Facebook">f</a>
+                            <a href="#" class="social-link" aria-label="Twitter">𝕏</a>
+                            <a href="#" class="social-link" aria-label="Instagram">📷</a>
+                            <a href="#" class="social-link" aria-label="YouTube">▶</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="footer-disclaimer">
-                <p><strong>Paid for by Kasieta for Senate</strong></p>
-                <p>P.O. Box [Address] • [City], MI [ZIP] • info@kasietaforsenate.com</p>
-                <p class="footer-legal">By providing your phone number, you are consenting to receive calls and texts, including autodialed and automated calls and texts, to that number from Kasieta for Senate. Message frequency varies. Message and data rates may apply. Text STOP to opt-out. <a href="#">Privacy Policy</a></p>
+            
+            <div class="footer-bottom">
+                <p class="fec-disclaimer">Paid for by Kasieta for Senate. Not authorized by any candidate or candidate's committee.</p>
+                <p class="footer-copyright">&copy; 2026 Kasieta for Senate. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#privacy">Privacy Policy</a>
+                    <span>•</span>
+                    <a href="#terms">Terms of Service</a>
+                </div>
             </div>
         </div>
     </footer>
